@@ -52,8 +52,8 @@ nav {
 }
 
 nav > a {
+    
     font-family: "Ubuntu", serif;
-
     text-decoration: none;
     color: white;
     padding: 10px;
