@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(/imagens/7a13919c-3cc1-4faf-b589-60a491a2e721.jpeg);
+    background-color: #002D4D;
     background-size: 1920px 964px;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,6 +20,11 @@ body {
     height: 100vh;
 
 
+}
+
+img {
+    width: 550px;
+    
 }
 
 .login-container {
@@ -36,6 +41,7 @@ body {
     margin-bottom: 20px;
     font-size: 24px;
     color: #333;
+   
 }
 
 .form-group {
@@ -66,17 +72,30 @@ body {
 .login-button {
     width: 100%;
     padding: 10px;
-    background: #4facfe;
+    background: #12B1B2;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s ease;
+    text-decoration: none;
+   
 }
 
+.login-button a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.534);
+    
+
+}
+
+
 .login-button:hover {
-    background: #3b8dde;
+    background: #12B1B2;
+   
+    
+    
 }
 
 .forgot-password {

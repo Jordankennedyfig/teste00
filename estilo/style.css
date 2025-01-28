@@ -34,7 +34,7 @@ a.externo::after {
 
 header {
 
-   background-color: #015484;
+   background-color: #002C4D;
    padding: 20px;
    height: 150px;
    text-align: center;
@@ -44,7 +44,7 @@ header {
 
 nav {
 
-    background-color: #015484;
+    background-color: #12B1B0;
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192) ;
     margin-bottom: 30px;
@@ -65,7 +65,7 @@ nav > a {
 
  nav > a:hover {
 
-    text-decoration: underline;
+    text-decoration: none;
     color: #00000091;
     background-color: #9ee7fd8f;
 }
@@ -168,6 +168,7 @@ footer a:hover {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
     overflow: hidden;
+    
 }
 
 table {
@@ -265,7 +266,7 @@ td {
 
 .logo {
 
-    width: 100px;
+    width: 153px;
     display: block;
     
 
@@ -325,7 +326,7 @@ li {
 .botao {
     
     margin: auto;
-    background: #015484;
+    background: #002c4d;
     border-radius: 10px 10px;
     font-family: "Ubuntu", serif;
     text-decoration: none;
@@ -333,6 +334,8 @@ li {
     font-weight: normal;
     margin-right: 5px;
     transition-duration: 0.5s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.404);
+    border: 1px;
    
     
 }
@@ -351,11 +354,13 @@ a {
     font-weight: normal;
     margin-right: 5px;
     transition-duration: 0.5s;
+   
 }
 nav :hover {
     background-color: #59A7C8;
-    text-decoration: underline;
+    text-decoration: none;
     color: #00000091;
     background-color: #9ee7fd8f;
     transition-duration: 0.5s;
 }
+
