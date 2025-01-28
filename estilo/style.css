@@ -208,10 +208,10 @@ td {
 }
 
 .subject {
-    font-weight: bold;
+    font-weight: normal;
 }
 .protocolo {
-    font-weight: bold;
+    font-weight: bolder;
 
 }
 
@@ -227,6 +227,7 @@ td {
 .timestamp {
     color: #888;
     font-size: 12px;
+    font-weight: bolder;
 }
 
 .search-container {
