@@ -21,7 +21,6 @@
 
 body {
     
-
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
@@ -116,33 +115,8 @@ main p {
 
 }
 
-footer {
-    background-color: #007bff;
-    text-align: center;
-    
-
- 
-}
-
-footer a {
-
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-
-}
-
-footer a:hover {
-    
-    text-decoration: underline;
-    color: var(--cor1);
-
-}
-
-
-
-
 #tabela { 
+
     margin-top: 10px;
     min-width: 300px;
     max-width: 1000px;
@@ -278,6 +252,7 @@ td {
     display: flex;
     gap: 32px;
     list-style: none;
+    
   }
   
   .nav-list a {
@@ -342,6 +317,7 @@ li {
 }
 
 .botao :hover {
+
     background-color: #59A7C8;
 }
 
@@ -363,5 +339,6 @@ nav :hover {
     color: #00000091;
     background-color: #9ee7fd8f;
     transition-duration: 0.5s;
+    
 }
 
