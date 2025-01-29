@@ -9,10 +9,11 @@
   
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
-    --fonte-android: 'font-family: "Ubuntu", serif';
+    --fonte-ubuntu: 'font-family: "Ubuntu", serif';
 }
 
 * {
+
     font-family: "Ubuntu", serif;
     margin: 0px;
     padding: 0px;
@@ -21,8 +22,8 @@
 
 body {
     
-    background-color: var(--cor0);
-    font-family: var(--fonte-padrao);
+    background-color: white;
+   
 }
 
 a.externo::after {
