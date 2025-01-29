@@ -70,6 +70,114 @@ nav > a {
     background-color: #9ee7fd8f;
 }
 
+.logo {
+
+    width: 153px;
+    display: block;
+    
+
+}
+
+  .nav-list {
+    
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    
+  }
+  
+  .nav-list a {
+    
+    font-size: 18px;
+    color: #fff;
+    padding-block: 16px;
+  }
+
+
+
+.logo01 {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    font-family: "Ubuntu", serif;
+    color: white;
+    margin: auto;
+
+  }
+
+p {
+    
+    font-size: 0.8em;
+
+     
+}
+
+img {
+    width: 30px;
+    
+}
+
+.direita {
+    list-style-type: none;
+    text-align: right;
+}
+
+li {
+    display:inline-block;
+    margin: 10px;
+}
+
+.botao {
+    
+    margin: auto;
+    background: #002c4d;
+    border-radius: 10px 10px;
+    font-family: "Ubuntu", serif;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: normal;
+    margin-right: 5px;
+    transition-duration: 0.5s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.404);
+    border: 1px;
+   
+    
+}
+
+.botao :hover {
+
+    background-color: #59A7C8;
+}
+
+a {
+    color: #f0f0f0;
+    font-family: "Ubuntu", serif;
+    text-decoration: none;
+    color: white;
+    padding: auto;
+    border-radius: 5px;
+    font-weight: normal;
+    margin-right: 5px;
+    transition-duration: 0.5s;
+   
+}
+nav :hover {
+    text-decoration: none;
+    color: #00000091;
+    background-color: #12B1B0;
+    transition-duration: 0.5s;
+    
+}
+
+span  {
+    color: white;
+    
+
+}
+
 main {
     
     
@@ -240,106 +348,4 @@ td {
     background-color: #015484;
 }
 
-.logo {
-
-    width: 153px;
-    display: block;
-    
-
-}
-
-  .nav-list {
-    
-    display: flex;
-    gap: 32px;
-    list-style: none;
-    
-  }
-  
-  .nav-list a {
-    
-    font-size: 18px;
-    color: #fff;
-    padding-block: 16px;
-  }
-
-
-
-.logo01 {
-    padding-bottom: 30px;
-    display: flex;
-    align-items: center;
-  }
-  
-  h1 {
-    font-family: "Ubuntu", serif;
-    color: white;
-    margin: auto;
-
-  }
-
-p {
-    
-    font-size: 0.8em;
-
-     
-}
-
-img {
-    width: 30px;
-    
-}
-
-.direita {
-    list-style-type: none;
-    text-align: right;
-}
-
-li {
-    display:inline-block;
-    margin: 10px;
-}
-
-.botao {
-    
-    margin: auto;
-    background: #002c4d;
-    border-radius: 10px 10px;
-    font-family: "Ubuntu", serif;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: normal;
-    margin-right: 5px;
-    transition-duration: 0.5s;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.404);
-    border: 1px;
-   
-    
-}
-
-.botao :hover {
-
-    background-color: #59A7C8;
-}
-
-a {
-    color: #f0f0f0;
-    font-family: "Ubuntu", serif;
-    text-decoration: none;
-    color: white;
-    padding: auto;
-    border-radius: 5px;
-    font-weight: normal;
-    margin-right: 5px;
-    transition-duration: 0.5s;
-   
-}
-nav :hover {
-    background-color: #59A7C8;
-    text-decoration: none;
-    color: #00000091;
-    background-color: #9ee7fd8f;
-    transition-duration: 0.5s;
-    
-}
 

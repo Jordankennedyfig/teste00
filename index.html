@@ -6,6 +6,7 @@
     <title>SaúdeConecta</title>
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="shortcut icon" href="imagens/icontelacel (1).png" type="image/x-icon">
+   
 
 
 </head>
@@ -24,17 +25,23 @@
 
     </header>
     <div>
-    <nav>
-    <button class="botao" type="button"> <img src="imagens/icons8-lápis-50.png" alt=""> <a><span>Escrever </span></a></button>
-        <a href="#">Caixa de entrada</a>
-        <a href="#">Recebidos</a>
-        <a href="#">Enviados</a>
-        <a href="#">Rascunhos</a>
-
+        <nav>
+            <div>
+                <button class="botao" type="button">
+                    <img src="imagens/icons8-lápis-50.png" alt="Ícone de lápis">
+                    <span>Escrever</span>
+                </button>
+            
+    
+                <ul class="menu" id="menu">
+                    <li><a href="#">Caixa de entrada</a></li>
+                    <li><a href="#">Recebidos</a></li>
+                    <li><a href="#">Enviados</a></li>
+                    <li><a href="#">Rascunhos</a></li>
+                </ul>
+            </div>
         
-
-
-    </nav>
+        </nav>
     
     <main id="tabela">
         <div class="table-container">
@@ -56,6 +63,7 @@
                    <tr>
                        <td><span class="email">example1@gmail.com</span></td>
                        <td class="subject">Welcome to our service!</td>
+                       
                        <td class="protocolo">Nº 0000111111</td>
                        <td class="timestamp">Jan 25, 2025</td>
                        
@@ -88,5 +96,11 @@
        </div>
     </main>
 
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const nav = document.querySelector(".nav");
+        
+        hamburger.addEventListener("click", () => nav.classList.toggle("active"));
+    </script>
 </body>
 </html>
