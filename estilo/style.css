@@ -335,7 +335,7 @@ td {
 }
 
 .search-container button {
-    background-color: #0774b3cb;
+    background-color: #015484;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -345,7 +345,7 @@ td {
 }
 
 .search-container button:hover {
-    background-color: #015484;
+    background-color: #015484ce;
 }
 
 
