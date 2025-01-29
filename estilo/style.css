@@ -44,7 +44,7 @@ header {
 
 nav {
 
-    background-color: #12B1B0;
+    background-color: #00C0F3;
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192) ;
     margin-bottom: 30px;
@@ -72,7 +72,7 @@ nav > a {
 
 .logo {
 
-    width: 153px;
+    width: 120px;
     display: block;
     
 
@@ -133,7 +133,7 @@ li {
 .botao {
     
     margin: auto;
-    background: #002c4d;
+    background: #002c4de5;
     border-radius: 10px 10px;
     font-family: "Ubuntu", serif;
     text-decoration: none;
@@ -147,10 +147,6 @@ li {
     
 }
 
-.botao :hover {
-
-    background-color: #59A7C8;
-}
 
 a {
     color: #f0f0f0;
@@ -167,7 +163,7 @@ a {
 nav :hover {
     text-decoration: none;
     color: #00000091;
-    background-color: #12B1B0;
+    background-color: #00C0F3;
     transition-duration: 0.5s;
     
 }
